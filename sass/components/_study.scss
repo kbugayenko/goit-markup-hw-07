@@ -5,10 +5,10 @@
 
 .study-item {
   margin-right: var(--basic-margin);
-}
 
-.study-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .section.study {

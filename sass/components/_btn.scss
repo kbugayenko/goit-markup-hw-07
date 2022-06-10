@@ -5,7 +5,6 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   border: 0;
   border-radius: 4px;
   color: var(--primary-white-color);
@@ -16,12 +15,12 @@
   margin-right: auto;
 
   transition: color var(--animation), background-color var(--animation);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--background);
+  &:hover,
+  &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--background);
+  }
 }
 
 .btn-icon:not(:last-child) {
@@ -39,12 +38,12 @@
   color: var(--icons-color);
 
   transition: color var(--animation), background-color var(--animation);
-}
 
-.button-social:hover,
-.button-social:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  &:hover,
+  &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--button-color);
+  }
 }
 
 .button-sub {

@@ -1,16 +1,15 @@
 .futuries {
   display: flex;
-}
 
-.futuries.section {
-  padding-bottom: 0;
-}
+  &.section {
+    padding-bottom: 0;
+  }
 
-.futuries > .item {
-  flex-basis: calc(100% / 4);
-  margin-left: var(--basic-margin);
+  & > .item {
+    flex-basis: calc(100% / 4);
+    margin-left: var(--basic-margin);
+  }
 }
-
 .futuries-icon {
   display: flex;
   justify-content: center;

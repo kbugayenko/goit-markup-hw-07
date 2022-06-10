@@ -32,4 +32,9 @@ ul {
 
 .link {
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+  }
 }

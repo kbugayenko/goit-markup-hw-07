@@ -1,14 +1,14 @@
 .clients {
   display: flex;
-}
 
-.clients-list {
-  width: 170px;
-  height: 92px;
-}
+  &-list {
+    width: 170px;
+    height: 92px;
+  }
 
-.clients-list:not(:last-child) {
-  margin-right: 30px;
+  &-list:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-item {
@@ -22,10 +22,10 @@
   color: var(--icons-color);
 
   transition: color var(--animation), border var(--animation);
-}
 
-.clients-item:hover,
-.clients-item:focus {
-  color: var(--button-color);
-  border: 1px solid var(--button-color);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    border: 1px solid var(--button-color);
+  }
 }
