@@ -1,0 +1,41 @@
+.futuries {
+  display: flex;
+}
+
+.futuries.section {
+  padding-bottom: 0;
+}
+
+.futuries > .item {
+  flex-basis: calc(100% / 4);
+  margin-left: var(--basic-margin);
+}
+
+.futuries-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-button);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.item:first-child {
+  margin-left: 0;
+}
+
+.futuries-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.futuries-title-p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--acent-color);
+}
