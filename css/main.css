@@ -465,10 +465,6 @@ ul {
   margin-left: var(--basic-margin);
 }
 
-.team-list:first-child {
-  margin-left: 0;
-}
-
 .team-list .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -477,6 +473,10 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 10px;
+}
+
+.team-list:first-child {
+  margin-left: 0;
 }
 
 .team-disc {
@@ -502,34 +502,6 @@ ul {
   list-style: none;
   cursor: pointer;
   margin-top: 16px;
-}
-
-.btn-icon:not(:last-child) {
-  margin-right: 10px;
-}
-
-.button-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  padding: 0;
-  color: var(--icons-color);
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
-}
-
-.button-social:hover, .button-social:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
 }
 
 .soc-icons {
@@ -938,19 +910,19 @@ textarea:focus-within {
   margin-top: calc(-1 * var(--basic-margin));
 }
 
+.card-info {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-}
-
-.card-info {
-  padding: 20px 24px;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .project-descrip {
