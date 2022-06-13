@@ -26,14 +26,14 @@
   padding: 12px 0px 12px 42px;
   outline: transparent;
 
-  transition: border var(--animation);
+  transition: border $animation;
 
   &:focus-within {
     border: 1px solid #2196f3;
   }
 
   &:focus-within + .form-icons {
-    color: var(--button-color);
+    color: $button-color;
   }
 }
 
@@ -55,7 +55,7 @@ textarea {
   padding: 12px 16px;
   outline: transparent;
 
-  transition: border var(--animation);
+  transition: border $animation;
 
   &:focus-within {
     border: 1px solid #2196f3;

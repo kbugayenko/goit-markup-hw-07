@@ -1,5 +1,5 @@
 .hero {
-  background-color: var(--background-color);
+  background-color: $background-color;
 
   max-width: 1600px;
   margin-left: auto;
@@ -24,6 +24,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
-  margin-bottom: var(--basic-margin);
+  color: $primary-white-color;
+  margin-bottom: $basic-margin;
 }

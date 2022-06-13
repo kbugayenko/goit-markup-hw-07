@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--background-color);
+  background-color: $background-color;
   padding: 60px 0;
 
   & .container {
@@ -8,15 +8,15 @@
   }
 
   & .logo-studio {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
   }
 }
 
 .footer-adress {
   line-height: 1.71;
   font-style: normal;
-  color: var(--primary-white-color);
-  background-color: var(--background-color);
+  color: $primary-white-color;
+  background-color: $background-color;
   margin-top: 20px;
   align-items: baseline;
 
@@ -27,7 +27,7 @@
   & .link {
     color: rgba(255, 255, 255, 0.6);
 
-    transition: color var(--animation);
+    transition: color $animation;
   }
 }
 
@@ -42,7 +42,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .foot-list {
@@ -70,14 +70,14 @@
   height: 44px;
   border-radius: 50%;
   padding: 0;
-  color: var(--primary-white-color);
-  background-color: var(--icons-foot);
+  color: $primary-white-color;
+  background-color: $icons-foot;
 
-  transition: color var(--animation), background-color var(--animation);
+  transition: color $animation, background-color $animation;
 
   &:hover,
   &:focus {
-    color: var(--primary-white-color);
-    background-color: var(--button-color);
+    color: $primary-white-color;
+    background-color: $button-color;
   }
 }

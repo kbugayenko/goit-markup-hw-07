@@ -1,9 +1,9 @@
 .section {
-  padding: var(--padding-section) 0;
+  padding: $padding-section 0;
 }
 
 .section-title {
-  color: var(--main-text-color);
+  color: $main-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;

@@ -7,14 +7,14 @@
 
   & > .item {
     flex-basis: calc(100% / 4);
-    margin-left: var(--basic-margin);
+    margin-left: $basic-margin;
   }
 }
 .futuries-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-button);
+  background-color: $background-button;
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -36,5 +36,5 @@
 .futuries-title-p {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--acent-color);
+  color: $acent-color;
 }

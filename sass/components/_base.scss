@@ -5,8 +5,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  background-color: var(--primary-white-color);
-  color: var(--main-text-color);
+  background-color: $primary-white-color;
+  color: $main-text-color;
   justify-content: center;
 }
 
@@ -35,6 +35,6 @@ ul {
 
   &:hover,
   &:focus {
-    color: var(--button-color);
+    color: $button-color;
   }
 }
