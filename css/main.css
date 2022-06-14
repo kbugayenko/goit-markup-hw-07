@@ -890,8 +890,8 @@ textarea:focus-within {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * $basic-margin);
-  margin-top: calc(-1 * $basic-margin);
+  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
 }
 
 .card-info {
