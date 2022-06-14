@@ -1,19 +1,3 @@
-.root {
-  --main-text-color: #212121;
-  --acent-color: #757575;
-  --primary-white-color: #ffffff;
-  --button-color: #2196f3;
-  --background-color: #2f303a;
-  --background-button: #f5f4fa;
-  --background: #188ce8;
-  --color-logo: #000000;
-  --icons-color: #afb1b8;
-  --icons-foot: rgba(255, 255, 255, 0.1);
-  --padding-section: 94px;
-  --basic-margin: 30px;
-  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 body {
   position: relative;
   font-family: Roboto, sans-serif;
@@ -21,8 +5,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  background-color: var(--primary-white-color);
-  color: var(--main-text-color);
+  background-color: #ffffff;
+  color: #212121;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -53,7 +37,7 @@ ul {
 }
 
 .link:hover, .link:focus {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .container {
@@ -83,7 +67,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: var(--button-color);
+  color: #2196f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,7 +77,7 @@ ul {
 }
 
 .logo-studio {
-  color: var(--color-logo);
+  color: #000000;
 }
 
 .header {
@@ -139,18 +123,18 @@ ul {
 .site-nav .link {
   display: block;
   position: relative;
-  color: var(--main-text-color);
-  -webkit-transition: color var(--animation);
-  transition: color var(--animation);
+  color: #212121;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .site-nav .link.current {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .site-nav .link.current::after {
@@ -161,7 +145,7 @@ ul {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--button-color);
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
@@ -196,14 +180,14 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--acent-color);
-  -webkit-transition: color var(--animation);
-  transition: color var(--animation);
+  color: #757575;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-nav .link:hover,
 .adress-nav .link:focus {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .adress-nav-list {
@@ -220,7 +204,7 @@ ul {
 }
 
 .hero {
-  background-color: var(--background-color);
+  background-color: #2f303a;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -240,8 +224,8 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
-  margin-bottom: var(--basic-margin);
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -253,19 +237,19 @@ ul {
   letter-spacing: 0.06em;
   border: 0;
   border-radius: 4px;
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  color: #ffffff;
+  background-color: #2196f3;
   display: block;
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover, .hero-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--background);
+  color: #ffffff;
+  background-color: #188ce8;
 }
 
 .btn-icon:not(:last-child) {
@@ -286,14 +270,14 @@ ul {
   height: 44px;
   border-radius: 50%;
   padding: 0;
-  color: var(--icons-color);
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
+  color: #afb1b8;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-social:hover, .button-social:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .button-sub {
@@ -310,9 +294,9 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--primary-white-color);
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
+  color: #ffffff;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button {
@@ -323,19 +307,19 @@ ul {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--background-button);
+  background-color: #f5f4fa;
   border-radius: 4px;
-  border: var(--background-button);
+  border: #f5f4fa;
   padding: 6px 22px;
   cursor: pointer;
 }
 
 .section {
-  padding: var(--padding-section) 0;
+  padding: 94px 0;
 }
 
 .section-title {
-  color: var(--main-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -356,7 +340,7 @@ ul {
 .futuries > .item {
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
-  margin-left: var(--basic-margin);
+  margin-left: 30px;
 }
 
 .futuries-icon {
@@ -369,7 +353,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: var(--background-button);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -391,7 +375,7 @@ ul {
 .futuries-title-p {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--acent-color);
+  color: #757575;
 }
 
 .study {
@@ -403,7 +387,7 @@ ul {
 }
 
 .study-item {
-  margin-right: var(--basic-margin);
+  margin-right: 30px;
 }
 
 .study-item:last-child {
@@ -427,7 +411,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: var(--primary-white-color);
+  color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   padding: 27px 0px;
@@ -447,7 +431,7 @@ ul {
 }
 
 .section.team {
-  background-color: var(--background-button);
+  background-color: #f5f4fa;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: center;
@@ -458,11 +442,11 @@ ul {
 .team-list {
   text-align: center;
   width: 270px;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-left: var(--basic-margin);
+  margin-left: 30px;
 }
 
 .team-list .team-title {
@@ -480,13 +464,13 @@ ul {
 }
 
 .team-disc {
-  padding: var(--basic-margin) 0;
+  padding: 30px 0;
 }
 
 .team-descrip {
   font-size: 16px;
   line-height: 1.14;
-  color: var(--acent-color);
+  color: #757575;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -535,20 +519,20 @@ ul {
           align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--icons-color);
+  border: 1px solid var(#afb1b8);
   border-radius: 4px;
-  color: var(--icons-color);
-  -webkit-transition: color var(--animation), border var(--animation);
-  transition: color var(--animation), border var(--animation);
+  color: var(#afb1b8);
+  -webkit-transition: color var(250ms cubic-bezier(0.4, 0, 0.2, 1)), border var(250ms cubic-bezier(0.4, 0, 0.2, 1));
+  transition: color var(250ms cubic-bezier(0.4, 0, 0.2, 1)), border var(250ms cubic-bezier(0.4, 0, 0.2, 1));
 }
 
 .clients-item:hover, .clients-item:focus {
-  color: var(--button-color);
-  border: 1px solid var(--button-color);
+  color: var(#2196f3);
+  border: 1px solid var(#2196f3);
 }
 
 .footer {
-  background-color: var(--background-color);
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
@@ -562,14 +546,14 @@ ul {
 }
 
 .footer .logo-studio {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .footer-adress {
   line-height: 1.71;
   font-style: normal;
-  color: var(--primary-white-color);
-  background-color: var(--background-color);
+  color: #ffffff;
+  background-color: #2f303a;
   margin-top: 20px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -582,8 +566,8 @@ ul {
 
 .footer-adress .link {
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: color var(--animation);
-  transition: color var(--animation);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-info {
@@ -597,7 +581,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .foot-list {
@@ -637,15 +621,15 @@ ul {
   height: 44px;
   border-radius: 50%;
   padding: 0;
-  color: var(--primary-white-color);
-  background-color: var(--icons-foot);
-  -webkit-transition: color var(--animation), background-color var(--animation);
-  transition: color var(--animation), background-color var(--animation);
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social:hover, .footer-social:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .mail-podpis {
@@ -686,7 +670,7 @@ ul {
   text-align: center;
   color: #ffffff;
   margin-left: 12px;
-  background-color: var(--button-color);
+  background-color: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -712,8 +696,8 @@ ul {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  -webkit-transition: opacity var(--animation), visibility var(--animation);
-  transition: opacity var(--animation), visibility var(--animation);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -748,12 +732,12 @@ ul {
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: color var(--animation);
-  transition: color var(--animation);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close:focus-within, .close:hover {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .form-title {
@@ -781,8 +765,8 @@ ul {
   width: 100%;
   padding: 12px 0px 12px 42px;
   outline: transparent;
-  -webkit-transition: border var(--animation);
-  transition: border var(--animation);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus-within {
@@ -790,7 +774,7 @@ ul {
 }
 
 .form-input:focus-within + .form-icons {
-  color: var(--button-color);
+  color: #2196f3;
 }
 
 .form-icons {
@@ -809,8 +793,8 @@ textarea {
   border-radius: 4px;
   padding: 12px 16px;
   outline: transparent;
-  -webkit-transition: border var(--animation);
-  transition: border var(--animation);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea:focus-within {
@@ -862,21 +846,21 @@ textarea:focus-within {
 }
 
 .project .button {
-  -webkit-transition: color var(--animation), background-color var(--animation), -webkit-box-shadow var(--animation);
-  transition: color var(--animation), background-color var(--animation), -webkit-box-shadow var(--animation);
-  transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
-  transition: color var(--animation), background-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project .button:active {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .project .button:hover,
 .project .button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
+  color: #ffffff;
+  background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -887,12 +871,12 @@ textarea:focus-within {
 
 .project-link {
   display: block;
-  color: var(--main-text-color);
+  color: #212121;
   text-decoration: none;
-  -webkit-transition: -webkit-box-shadow var(--animation);
-  transition: -webkit-box-shadow var(--animation);
-  transition: box-shadow var(--animation);
-  transition: box-shadow var(--animation), -webkit-box-shadow var(--animation);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-link:hover, .project-link:focus {
@@ -906,8 +890,8 @@ textarea:focus-within {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * var(--basic-margin));
-  margin-top: calc(-1 * var(--basic-margin));
+  margin-left: calc(-1 * $basic-margin);
+  margin-top: calc(-1 * $basic-margin);
 }
 
 .card-info {
@@ -928,14 +912,14 @@ textarea:focus-within {
 .project-descrip {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--acent-color);
+  color: #757575;
 }
 
 .project-item {
-  -ms-flex-preferred-size: calc(100% / 3 - var(--basic-margin));
-      flex-basis: calc(100% / 3 - var(--basic-margin));
-  margin-left: var(--basic-margin);
-  margin-top: var(--basic-margin);
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .project-thumb {
@@ -947,13 +931,13 @@ textarea:focus-within {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: var(--button-color);
+  background-color: #2196f3;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: -webkit-transform var(--animation);
-  transition: -webkit-transform var(--animation);
-  transition: transform var(--animation);
-  transition: transform var(--animation), -webkit-transform var(--animation);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover .project-overlay {
@@ -962,7 +946,7 @@ textarea:focus-within {
 }
 
 .overlay-info {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.55;

@@ -71,7 +71,7 @@
 }
 
 .project-item {
-  flex-basis: calc(100% / 3 - $basic-margin);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: $basic-margin;
   margin-top: $basic-margin;
 }
