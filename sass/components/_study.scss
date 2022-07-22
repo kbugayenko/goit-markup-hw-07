@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 
-.study-item {
+.study__item {
   margin-right: $basic-margin;
 
   &:last-child {
@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.study-title {
+.study__title {
   position: absolute;
   bottom: 0;
   display: flex;

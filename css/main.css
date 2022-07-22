@@ -46,6 +46,19 @@ ul {
   padding: 0 15px;
 }
 
+.section {
+  padding: 94px 0;
+}
+
+.section__title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -314,19 +327,6 @@ ul {
   cursor: pointer;
 }
 
-.section {
-  padding: 94px 0;
-}
-
-.section-title {
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .futuries {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,11 +386,11 @@ ul {
       flex-wrap: wrap;
 }
 
-.study-item {
+.study__item {
   margin-right: 30px;
 }
 
-.study-item:last-child {
+.study__item:last-child {
   margin-right: 0;
 }
 
@@ -402,7 +402,7 @@ ul {
   position: relative;
 }
 
-.study-title {
+.study__title {
   position: absolute;
   bottom: 0;
   display: -webkit-box;
