@@ -5,12 +5,12 @@
     padding-bottom: 0;
   }
 
-  & > .item {
+  & > .futuries__item {
     flex-basis: calc(100% / 4);
     margin-left: $basic-margin;
   }
 }
-.futuries-icon {
+.futuries__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,11 +21,11 @@
   margin-bottom: 30px;
 }
 
-.item:first-child {
+.futuries__item:first-child {
   margin-left: 0;
 }
 
-.futuries-title {
+.futuries__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -33,7 +33,7 @@
   margin-bottom: 10px;
 }
 
-.futuries-title-p {
+.futuries__paragraph {
   font-size: 14px;
   line-height: 1.71;
   color: $acent-color;

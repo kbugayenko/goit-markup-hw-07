@@ -337,13 +337,13 @@ ul {
   padding-bottom: 0;
 }
 
-.futuries > .item {
+.futuries > .futuries__item {
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
   margin-left: 30px;
 }
 
-.futuries-icon {
+.futuries__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,11 +360,11 @@ ul {
   margin-bottom: 30px;
 }
 
-.item:first-child {
+.futuries__item:first-child {
   margin-left: 0;
 }
 
-.futuries-title {
+.futuries__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -372,7 +372,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.futuries-title-p {
+.futuries__paragraph {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
