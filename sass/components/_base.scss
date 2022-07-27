@@ -1,9 +1,9 @@
 body {
   position: relative;
-  font-family: Roboto, sans-serif;
-  font-style: 400;
-  font-size: 14px;
-  font-weight: 400;
+  font-family: $font-family;
+  font-style: $font-style;
+  font-size: $font-size;
+  font-weight: $font-weight;
   letter-spacing: 0.03em;
   background-color: $primary-white-color;
   color: $main-text-color;
